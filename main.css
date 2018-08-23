@@ -1,0 +1,105 @@
+body{
+    font-family:Helvetica,Arial;
+    font-weight:600;
+}
+.form{
+    margin:0 auto;
+    width:55% ;
+    border-radius:1% ;
+    position:relative;
+    text-align:center;
+    padding:5%;
+    background:linear-gradient(to top, #aa2e2e 50%, #c23333 50%);
+}
+input{
+    display:block;
+    margin:0 auto;
+    width:100%;
+    height: 8%;
+    position: relative;
+    margin-top:10px ;
+    border-radius:5px ;
+    border: none;
+    background-color:rgb(214, 209, 209);
+    font-family:inherit;
+    font-size:inherit;
+}
+.text{
+    color:rgb(214, 209, 209)
+}
+#input-1{
+    margin-top:20px;
+}
+#input-2{
+    margin-bottom:20px;
+}
+::placeholder{
+    color:black;
+    font-weight:550;
+    padding-left:10px;
+}
+.btn{
+    position:relative;
+    height:8%;
+    width:50%;
+    background-color: white;
+    color:black;
+    font-weight:inherit;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    border: none;
+    font-size:inherit;
+    font-family:inherit;
+
+}
+.bottomHalf{
+    position:relative;
+    height:50%;
+    margin-top:30%
+}
+.accountBtn{
+    position:relative;
+    height:30%;
+    width:100%;
+    background-color: white;
+    color:black;
+    font-weight:inherit;
+    border: none;
+    font-size:inherit;
+    font-family:inherit;
+    margin-bottom:10%;
+}
+img{
+    height:40px; 
+    width:40px;
+    position:absolute;
+    right:20%;
+    bottom:33.33%;
+}
+#raise{
+    margin-bottom:50%;
+}
+@media(max-width:768px){
+.form{
+    width:90%;
+    font-size:1em;
+    height:550px
+
+}
+}
+
+@media(min-width:768px){
+.form{
+    font-size:1em;
+    height:500px
+    }
+}
+
+@media(min-width:992px){
+.form{
+    font-size:1em;
+    height:800px
+    }
+}
